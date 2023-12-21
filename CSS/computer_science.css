@@ -13,6 +13,7 @@ body{
     margin-left:33%;
     background-color: rgb(3, 3, 22);
     border-top:1px solid rgb(38, 6, 241); ;
+    
    
     
  
@@ -23,6 +24,7 @@ body{
     position:absolute;
     border-right: none;
     border-bottom: none;
+    
     
   
  }
@@ -70,6 +72,16 @@ body{
  padding:10px;
  width:90px;
  cursor: pointer;
+ display:block;
  
  
+ }
+
+ .correct{
+   background-color: green;
+   
+ }
+
+ .incorrect{
+   background-color: red;
  }
