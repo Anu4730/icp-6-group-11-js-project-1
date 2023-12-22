@@ -184,3 +184,21 @@ nextButton.addEventListener("click",()=>{
 })
 
 startQuiz();
+
+
+
+   let state;
+   function mode(){
+    const modeElement = document.getElementById("mode");
+
+    if(state){
+        modeElement.src="light-mode.png";
+        state=false;
+      }
+      else{
+        bulbElement.src ="dark-mode.png ";
+        state=true;
+  
+      }
+
+}

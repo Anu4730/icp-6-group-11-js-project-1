@@ -8,11 +8,12 @@ body{
  }
  
  .bg-img{
-    width:900px; 
+    width:930px; 
     position: fixed;
     margin-left:33%;
     background-color: rgb(3, 3, 22);
     border-top:1px solid rgb(38, 6, 241); ;
+    height: 630px;
     
    
     
@@ -20,7 +21,7 @@ body{
  }
  .box{
     border:1px solid rgb(38, 6, 241);
-    width:500px;
+    width:550px;
     position:absolute;
     border-right: none;
     border-bottom: none;
@@ -36,7 +37,9 @@ body{
  text-align: center;
  padding:50px;
  color: white;
- margin-top:20px;
+ margin-top: 1px;
+ margin-bottom: 5px;
+ 
  
  }
  
@@ -78,10 +81,26 @@ body{
  }
 
  .correct{
-   background-color: green;
+   background-color: rgb(118, 247, 118);
    
  }
 
  .incorrect{
-   background-color: red;
+   background-color: rgb(247, 109, 109);
+ }
+
+ .navbar{
+   height:55px;
+   width:1350px;
+   background-color: rgb(62, 6, 229);
+  
+   margin-bottom: 10px;
+   border: 2px solid green;
+
+ }
+
+ #mode{
+ 
+   
+   
  }
