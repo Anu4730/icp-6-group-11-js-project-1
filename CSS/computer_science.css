@@ -12,15 +12,15 @@ body{
     position: fixed;
     margin-left:33%;
     background-color: rgb(3, 3, 22);
-    border-top:1px solid rgb(38, 6, 241); ;
-    height: 630px;
+    border-top:2px solid #203d5b; ;
+    height: 567px;
     
    
     
  
  }
  .box{
-    border:1px solid rgb(38, 6, 241);
+    border:2px solid #203d5b;
     width:550px;
     position:absolute;
     border-right: none;
@@ -92,15 +92,26 @@ body{
  .navbar{
    height:55px;
    width:1350px;
-   background-color: rgb(62, 6, 229);
+   background-color: #203d5b;;
   
    margin-bottom: 10px;
-   border: 2px solid green;
+   border: 1px solid rgb(247, 246, 246);
 
  }
 
  #mode{
- 
+   height:40px;
+   width:40px;
+   cursor:pointer;
+   position: fixed;
+   right:10px;
+   top:15px;
    
    
+ }
+ .state:true{
+   background-color:black ;
+ }
+ .state:false{
+background-color: white;
  }
