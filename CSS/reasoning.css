@@ -30,6 +30,9 @@ body{
     position: absolute;
     margin-left: 40px;
 }
+.box{
+   padding: 12px ;
+}
 .app h1{
     font-size: 25px;
     color: #001e4d;
@@ -90,3 +93,44 @@ btn:disabled{
   .incorrect{
     background-color: rgb(247, 109, 109);
   }
+  .nav {
+    position: static;
+    top: 0;
+    display: flex;
+    color: tomato;
+    justify-content: space-between;
+    background-color: #203d5b;
+    padding-bottom: 20px;
+}
+
+.navbar-menu {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.menu {
+    margin-left: 50px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    list-style: none;
+
+}
+.menu:hover {
+    background-color: #1b355c;
+    color: white;
+    filter: drop-shadow(0px 0px 20px tomato);
+
+
+}
