@@ -1,4 +1,4 @@
-const questions = [
+const questions =[
     {
         question: "Look at this series:2,1,(1/2),(1/4),...What number should come next?",
         answer:[
@@ -89,7 +89,8 @@ const questions = [
             {text:"familiar",correct:true},
         ]
     }
-]
+];
+
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("ans-btns");
 const nextButton = document.getElementById("next-btn");
