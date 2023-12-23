@@ -196,7 +196,7 @@ startQuiz();
         state=false;
       }
       else{
-        bulbElement.src ="dark-mode.png ";
+        modeElement.src ="dark-mode.png ";
         state=true;
   
       }

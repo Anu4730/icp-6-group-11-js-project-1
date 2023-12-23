@@ -12,6 +12,54 @@
     background-size: cover;
     
 }
+.nav {
+    position: static;
+    top: 0;
+    display: flex;
+    color: tomato;
+    justify-content: space-between;
+    background-color: blue;
+    padding-bottom: 20px;
+}
+
+.navbar-menu {
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+.profile {
+    border-radius: 50%;
+    margin: 0;
+    width: 10px;
+    margin-right: 100px;
+}
+
+.menu {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    list-style: none;
+
+}
+.menu:hover {
+    background-color: #0066ff;
+    color: black;
+    filter: drop-shadow(0px 0px 20px tomato);
+
+
+}
+
 body{
     background-color: #2f2f1e;
 }
@@ -31,8 +79,7 @@ ul li{
     font-size:20px;
     height: 100px;
     width: 100px;
-    margin-left: 900px;
-    /* margin-top: 100px; */
+    margin-left: 1100px;
 }
 #list{
     height: 30px;
@@ -42,19 +89,6 @@ ul li{
     box-shadow: 1px 1px 2px ;
     padding-left: 13px;
 }
-
-.signin{
-    height: 35px;
-    width: 80px;
-    text-align: center;
-    background-color: red;
-    color: white;
-    padding: 5px;
-    cursor: pointer;
-    margin-left: 1000px;
-    margin-top: -200px;
-}
-
 
 input{
     width: 250px;
@@ -77,7 +111,6 @@ input::placeholder{
     background-color: darkorange;
     color: white;
     text-decoration: none;
-    /* font-weight: bold; */
 }
 
 section{
@@ -266,6 +299,43 @@ section{
         font-size: 14px;  
         margin-left: 20px; 
     }
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 23px;
+    justify-content: space-evenly;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    width: 300px;
+}
+
+.linkFooter {
+    list-style: none;
+    font-size: 15px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.imageSocial {
+    height: 20px;
+    width: 20px;
+}
+.copyright {
+    text-align: center;
+    margin: 20px;
+    color: gray;
+    font-size: 20px;
+}
+
+.footerHead {
+    font-size: 20px;
+    color: blue;
 }
 
 
