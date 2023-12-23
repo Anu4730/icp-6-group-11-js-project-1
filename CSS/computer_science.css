@@ -115,6 +115,8 @@ body{
 background-color: white;
  }
 
+<<<<<<< HEAD
+=======
  
  .footer{
   background-color: black;
@@ -154,6 +156,7 @@ background-color: white;
 
 
 
+>>>>>>> 04d83f6177af4c0f2539e759fb1596424ef78794
  .nav {
   position: static;
   top: 0;
@@ -161,6 +164,10 @@ background-color: white;
   color: tomato;
   justify-content: space-between;
   background-color: blue;
+<<<<<<< HEAD
+  padding-bottom: 20px;
+=======
+>>>>>>> 04d83f6177af4c0f2539e759fb1596424ef78794
 }
 
 .navbar-menu {
@@ -178,6 +185,15 @@ background-color: white;
   list-style: none;
 
 }
+<<<<<<< HEAD
+.profile {
+  border-radius: 50%;
+  margin: 0;
+  width: 10px;
+  margin-right: 100px;
+}
+=======
+>>>>>>> 04d83f6177af4c0f2539e759fb1596424ef78794
 
 .menu {
   margin-left: 30px;
@@ -188,6 +204,15 @@ background-color: white;
 
 }
 .menu:hover {
+<<<<<<< HEAD
+  background-color: #0066ff;
+  color: black;
+  filter: drop-shadow(0px 0px 20px tomato);
+
+
+}
+
+=======
   background-color: white;
   color: tomato;
   filter: drop-shadow(0px 0px 20px tomato);
@@ -207,6 +232,7 @@ background-color: white;
 
 
 
+>>>>>>> 04d83f6177af4c0f2539e759fb1596424ef78794
 .footer {
   display: flex;
   background-color: black;
@@ -246,6 +272,8 @@ footer ul li a {
 
 
 
+<<<<<<< HEAD
+=======
 
 
 
@@ -277,3 +305,4 @@ footer ul li a {
 
 
  
+>>>>>>> 04d83f6177af4c0f2539e759fb1596424ef78794
