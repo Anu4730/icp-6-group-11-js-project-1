@@ -30,6 +30,9 @@ body{
     position: absolute;
     margin-left: 40px;
 }
+.box{
+   padding: 12px ;
+}
 .app h1{
     font-size: 25px;
     color: #001e4d;
