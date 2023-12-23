@@ -12,6 +12,31 @@ input,
 textarea {
   font-family: "Poppins", sans-serif;
 }
+.nav {
+  position: static;
+  top: 0;
+  display: flex;
+  color: tomato;
+  justify-content: space-between;
+  background-color: blue;
+  padding-bottom: 20px;
+}
+
+.navbar-menu {
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+
+}
 
 .container {
   position: relative;
@@ -52,7 +77,7 @@ textarea {
   background-color: blue;
   transform: rotate(45deg);
   top: 50px;
-  left: -13px;
+  left: 15px;
 }
 
 form {
