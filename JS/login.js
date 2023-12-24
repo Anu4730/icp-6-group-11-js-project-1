@@ -3,9 +3,9 @@ var attempt = 3;
 function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
-if ( username == "abc.com" && password == "abc123"){
+if ( username == "rtc@gmail.com" && password == "rtc123"){
 alert ("Login successfully");
-window.location.assign("computer_science.html")
+window.location.assign("reasoning.html")
 return false; 
 }
 else{ 
