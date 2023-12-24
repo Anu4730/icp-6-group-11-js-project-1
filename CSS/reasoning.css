@@ -7,7 +7,8 @@
 }
 
 .container{
-   position: relative;
+  position: relative;
+ bottom: 600px;
  }
  res-img{
    width: 100%;
