@@ -154,8 +154,8 @@ btn:disabled{
 .footer{
     width: 100%;
     height: 200px;
-    background-color:#fff;
-    color: #000;
+    background-color:black;
+    color: white;
    
 }
 .footer-container{
