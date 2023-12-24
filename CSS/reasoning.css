@@ -9,6 +9,8 @@
 .container{
   position: relative;
  bottom: 600px;
+ margin-left: 800px;
+ margin-top: 0px;
  }
  res-img{
    width: 100%;
@@ -23,17 +25,21 @@
     background: url(../Images/res.jpeg);
     height: 600px;
     width:100%;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;}
+}
+.img-txt{
+    z-index: 3;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 50px;
+    z-index: 2;
+}
    
 body{
     background-color: rgb(7,7,7,1);
 }
 .app{
     background:#fff;
-    width: 90%;
+    width: 80%;
     max-width: 600px;
     margin: 100px auto 0;
     border-radius: 10px;
