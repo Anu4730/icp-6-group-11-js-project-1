@@ -80,7 +80,7 @@ const questions = [
     },
 
     {
-        question:"The headquarters of intel,a giant computer technology company,is in                     ?",
+        question:"The headquarters of intel,a giant computer technology company,is in?",
         answer:[
         {text:"London",correct:false},
         {text:"Tokyo",correct:false},

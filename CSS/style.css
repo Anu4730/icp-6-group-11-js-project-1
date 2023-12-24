@@ -201,7 +201,32 @@ section{
 }
 
 @media screen and (max-width: 600px) {
+    
+    .navbar-menu {
+        font-weight: bold;
+        /* margin-left: 20px; */
+        /* margin-top: 20px; */
+        cursor: pointer;
+         /* padding: 10px;  */
+        text-align: center; 
+        display: block;
+        font-size: 20px;
+    
+    }
+    .footer {
+        display: block;
+        /* align-items: center; */
 
+    }
+    footer ul li a {
+        width: 50px;
+    }
+    
+    .linkFooter {
+        display: block;
+        list-style: none;
+        font-size: 15px;
+    }
     
     ul{
         margin-left: 300px;
@@ -233,6 +258,17 @@ section{
 }
 @media screen and (min-width: 601px) and (max-width: 768px) {
    
+    .navbar-menu {
+        font-weight: bold;
+        margin-left: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+         padding: 10px; 
+        text-align: center; 
+        display: block;
+        font-size: 25px;
+    
+    }
     ul{
         margin-left: 400px;
     }
@@ -264,6 +300,17 @@ section{
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
     
+    .navbar-menu {
+        font-weight: bold;
+        margin-left: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+         padding: 10px; 
+        text-align: center; 
+        display: block;
+        font-size: 25px;
+    
+    }
     ul{
         margin-left: 600px;
     }
@@ -299,8 +346,9 @@ section{
     display: flex;
     background-color: black;
     color: white;
-    padding: 23px;
-    justify-content: space-evenly;
+    padding: 50px 100px;
+    align-items: center;
+    
 }
 
 footer ul li a {
@@ -331,6 +379,7 @@ footer ul li a {
     font-size: 20px;
     color: blue;
 }
+
 
 
 
