@@ -116,7 +116,7 @@ btn:disabled{
     display: flex;
     color: tomato;
     justify-content: space-between;
-    background-color: #203d5b;
+    background-image:linear-gradient(blue,hotpink);
     padding-bottom: 20px;
 }
 

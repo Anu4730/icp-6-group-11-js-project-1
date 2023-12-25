@@ -18,7 +18,7 @@
     display: flex;
     color: tomato;
     justify-content: space-between;
-    background-color: blue;
+    background-image:linear-gradient(blue,hotpink);
     padding-bottom: 20px;
 }
 
