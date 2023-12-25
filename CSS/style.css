@@ -201,31 +201,37 @@ section{
 }
 
 @media screen and (max-width: 600px) {
-    
+    .nav{
+        height: 250px;
+        }
     .navbar-menu {
         font-weight: bold;
-        /* margin-left: 20px; */
-        /* margin-top: 20px; */
         cursor: pointer;
-         /* padding: 10px;  */
         text-align: center; 
         display: block;
         font-size: 20px;
-    
-    }
-    .footer {
-        display: block;
-        /* align-items: center; */
-
-    }
-    footer ul li a {
-        width: 50px;
+        margin-left: 150px;
     }
     
     .linkFooter {
         display: block;
         list-style: none;
         font-size: 15px;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer ul li a {
+        width: 100%;
+        text-align: center;
+    }
+    .linkFooter {
+        display: block;
+        list-style: none;
+        font-size: 15px;
+        margin-left: -100px;
     }
     
     ul{
@@ -258,19 +264,34 @@ section{
 }
 @media screen and (min-width: 601px) and (max-width: 768px) {
    
+    .nav{
+        height: 150px;
+        }
     .navbar-menu {
         font-weight: bold;
-        margin-left: 20px;
-        margin-top: 20px;
         cursor: pointer;
-         padding: 10px; 
         text-align: center; 
         display: block;
         font-size: 25px;
-    
+        margin-left: 50px;
     }
     ul{
         margin-left: 400px;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer ul li a {
+        width: 100%;
+        text-align: center;
+    }
+    .linkFooter {
+        display: block;
+        list-style: none;
+        font-size: 15px;
+        margin-left: -100px;
     }
 
     input{
@@ -314,7 +335,23 @@ section{
     ul{
         margin-left: 600px;
     }
-    
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer ul li a {
+        width: 100%;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+    }
+    .linkFooter {
+        display: block;
+        list-style: none;
+        font-size: 15px;
+        margin-left: -100px;
+    }
     #subTitle{
         margin-top: 100px;
         font-size: 35px;
